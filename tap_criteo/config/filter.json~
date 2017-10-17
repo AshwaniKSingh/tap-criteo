@@ -1,0 +1,11 @@
+{"increment": 5, 
+"filter": 
+     {"isResultGzipped": false, 
+      "aggregationType": "Daily", 
+      "startDate": "2017-10-10", 
+      "endDate": "2017-10-20", 
+      "selectedColumns": ["clicks", "impressions", "ctr", "revcpc", "ecpm", "cost", "sales", "convRate", "orderValue"], 
+      "reportType": "Campaign", "reportSelector": {"CampaignIDs": [129210]}
+     }
+}
+
