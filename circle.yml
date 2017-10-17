@@ -1,0 +1,11 @@
+machine:
+  python:
+    version: 3.5.4
+
+dependencies:
+  pre:
+    - pip install pylint
+
+test:
+  post:
+    - pylint --disable missing-docstring,deprecated-method  __init__.py
