@@ -67,7 +67,7 @@ CATEGORY_SCHEMA = {"type": ["null", "object"],
                    "properties":{"categoryID": {"type":["number"]},
                                  "categoryName": {"type":["null", "string"]},
                                  "avgPrice": {"type":["null", "number"]},
-                                 "numberOfProducts":{"type":["null", "numeric"]},
+                                 "numberOfProducts":{"type":["null", "number"]},
                                  "selected": {"type":["null", "boolean"]}
                                 }
                   }
