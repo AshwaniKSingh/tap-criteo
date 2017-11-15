@@ -12,7 +12,7 @@ setup(name='tap_criteo',
       install_requires=[
           'singer-python==3.5.1',
           'suds-jurko==0.6',
-          'pyrfc3339'==1.0
+          'pyrfc3339==1.0'
       ],
       entry_points='''
           [console_scripts]
